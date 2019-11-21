@@ -1,0 +1,29 @@
+set R := xBF xFR xPX xPR xMQ xPC xES xPE;
+set V := vitA vitC vitB1 vitB2;
+
+param a: 
+       vitA vitC vitB1 vitB2 :=
+xBF    60   20   10    15
+xFR    8    0    20    20
+xPX    8    10   15    10
+xPR    40   40   35    10
+xMQ    15   35   15    15
+xPC    70   30   15    15
+xES    25   50   25    15
+xPE    60   20   15    10    ;
+
+param l := 
+vitA   700
+vitC   700
+vitB1  700
+vitB2  700;
+
+param c :=
+xBF    3.19
+xFR    2.59
+xPX    2.29
+xPR    2.89
+xMQ    1.89
+xPC    1.99
+xES    1.99
+xPE    2.49;

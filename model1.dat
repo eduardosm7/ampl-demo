@@ -1,0 +1,7 @@
+set P := faixas bobinas;  # definir conjunto P
+
+param:  a   c   u    :=
+faixas  200 25  6000
+bobinas 140 30  4000 ;
+
+param b := 40;
